@@ -65,3 +65,20 @@ r=tasaPeriodo(VA=valorActual,VF=valorFuturo,t=nPeriodos)
 #Imprimimos el resultado
 r
 ```
+### Cálculo de Tiempo
+Para ilistrar el ejemplo, se tiene el siguiente ejercicio
+$VF$=$1,140.00
+$i$=24.00% anualizado
+$VA$=$1,000.00
+$r$=2.00$ mensual
+
+Se realizan los cálculos
+```{r}
+# Creamos objetos con los valores de entrada
+valorActual=1000
+valorFuturo=1140
+tasaPeriodo=0.02
+t=nPeriodos(VA=valorActual,VF=valorFuturo,r=tasaPeriodo)
+#Imprimimos el resultado
+t
+```
