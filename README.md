@@ -1,6 +1,6 @@
-#Compilación de funciones de matemáticas financieras
+# Compilación de funciones de matemáticas financieras
 
-Emn este repositorio, se agrupan las funciones y actividades informáticas realizadas en la materia de matemáticas financieras de la licenciatura de Actuaría y Ciencia de Datos de la UMSNH
+En este repositorio, se agrupan las funciones y actividades informáticas realizadas en la materia de matemáticas financieras de la licenciatura de Actuaría y Ciencia de Datos de la UMSNH
 
 ## Funciones de interéa
 
