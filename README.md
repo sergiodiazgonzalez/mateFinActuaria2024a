@@ -44,7 +44,7 @@ valorFuturo=1140
 tasaPeriodo=0.02
 nPeriodos=7
 # Calculamos el valor actual:
-VA=ValorActual(VF=valorFuturo,r=tasaPeriodo,t=nPeriodos)
+VA=valorActual(VF=valorFuturo,r=tasaPeriodo,t=nPeriodos)
 # Imprimimos el resultado
 VA
 ```
