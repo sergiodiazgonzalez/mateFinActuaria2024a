@@ -7,7 +7,7 @@ En este repositorio, se agrupan las funciones y actividades informáticas realiz
 Con el siguiente código, puede usted cargar las funciones relativas a los cálculos de interés simple:
 
 ```{r}
-source("https://raw.githubusercontent.com/sergiodiazgonzalez/mateFinActuaria2024a/main/FormulasInteresSimple1.R")
+source("https://raw.githubusercontent.com/sergiodiazgonzalez/mateFinActuaria2024a/refs/heads/main/FormulasInteresSimple.R")
 ```
 A continuación se dan ejemplos del uso de las fórmulas Correspondientes
 
