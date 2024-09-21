@@ -9,11 +9,11 @@ Con el siguiente código, puede usted cargar las funciones relativas a los cálc
 ```{r}
 source("https://raw.githubusercontent.com/sergiodiazgonzalez/mateFinActuaria2024a/refs/heads/main/FormulasInteresSimple%20(1).R")
 ```
-A continuación se dan ejemplos del uso de las fórmulas Correspondientes
+A continuación se dan ejemplos del uso de las fórmulas correspondientes
 
 ### Cálculo de valor Futuro
 
-Para ilistrar el ejemplo, se tiene el siguiente ejercicio:
+Para ilustrar el ejemplo, se tiene el siguiente ejercicio:
 $VA$=$1,000.00
 $i$=24.00% anualizado
 $r$=2.00$ mensual
@@ -57,7 +57,7 @@ $t$=7 meses
 
 Se realizan los cálculos
 ```{r}
-# Creamos objetos con los valors de entrada:
+# Creamos objetos con los valores de entrada:
 valorActual=1000
 valorFuturo=1140
 nPeriodos=7
@@ -66,7 +66,7 @@ r=tasaPeriodo(VA=valorActual,VF=valorFuturo,t=nPeriodos)
 r
 ```
 ### Cálculo de Tiempo
-Para ilistrar el ejemplo, se tiene el siguiente ejercicio
+Para ilustrar el ejemplo, se tiene el siguiente ejercicio
 $VF$=$1,140.00
 $i$=24.00% anualizado
 $VA$=$1,000.00
