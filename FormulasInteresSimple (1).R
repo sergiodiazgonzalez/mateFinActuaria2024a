@@ -4,7 +4,7 @@
 
 #Valor futuro con interés simple
 
-valorFinalSimple=function(VA,r,t){
+valorFinal=function(VA,r,t){
   VF=VA*(1+(r*t))
   
   return(VF)
