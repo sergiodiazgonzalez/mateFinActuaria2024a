@@ -31,7 +31,7 @@ VF=valorFinalSimple(VA=valorActual,r=tasaPeriodo,t=nPeriodos)
 VF
 ```
 ### Cálculo de valor Actual
-Para ilustrar el ejeplo, se tiene el siguiente ejercicio:
+Para ilustrar el ejemplo, se tiene el siguiente ejercicio:
 $VF$=$1,140.00
 $i$=24.00% anualizado
 $r$=2.00$ mensual
@@ -47,4 +47,21 @@ nPeriodos=7
 VA=valorActual(VF=valorFuturo,r=tasaPeriodo,t=nPeriodos)
 # Imprimimos el resultado
 VA
+```
+### Cálculo de Interés Mensual
+Para ilustrar el ejemplo, se tiene el siguiente ejercicio:
+$VF$=$1,140.00
+$i$=24.00% anualizado
+$VA$=$1,000.00
+$t$=7 meses
+
+Se realizan los cálculos
+```{r}
+# Creamos objetos con los valors de entrada:
+valorActual=1000
+valorFuturo=1140
+nPeriodos=7
+r=tasaPeriodo(VA=valorActual,VF=valorFuturo,t=nPeriodos)
+#Imprimimos el resultado
+r
 ```
