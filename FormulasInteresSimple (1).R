@@ -5,33 +5,33 @@
 #Valor futuro con interés simple
 
 valorFinal=function(VA,r,t){
-  VF=VA*(1+(r*t))
+  xSalida=VA*(1+(r*t))
   
-  return(VF)
+  return(xSalida)
 }
 
 # Valor actual con interés simple
 
 valorActual=function(VF,r,t){
-  VA=VF/(1+(r*t))
+  xSalida=VF/(1+(r*t))
   
-  return(VA)
+  return(xSalida)
 }
 
 # Interés mensual con interés simple
 
 tasaPeriodo=function(VA,VF,t){
-  r=((VF/VA)-1)/t
+  xSalida=((VF/VA)-1)/t
   
-  return(r)
+  return(xSalida)
 }
 
 # Tiempo con interés simple
 
 nPeriodos=function(VA,VF,r){
-  t=((VF/VA)-1)/r
+  xSalida=((VF/VA)-1)/r
   
-  return(t)
+  return(xSalida)
 }
 
 
