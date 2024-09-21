@@ -28,5 +28,5 @@ nPeriodos=7
 # Calculamos el valor futuro:
 valorFuturo=valorFinalSimple(VA=valorActual,r=tasaPeriodo,t=nPeriodos)
 #Imprimimos el resultado:
-ValorFuturo
+valorFuturo
 ```
