@@ -29,7 +29,7 @@ tasaPeriodo=function(VA,VF,t){
 # Tiempo con interés simple
 
 nPeriodos=function(VA,VF,r){
-  xSalida=((VF/VA)-1)/
+  xSalida=((VF/VA)-1)/r
   
   return(xSalida)
 }
